@@ -9,7 +9,19 @@ python = "/usr/bin/python2.7"
 def root():
     return template('inicio')
 
-
+@route('/executar', method = "POST")
+def executeFile():
+	file = request.forms.get('content')
+	file_ = open("content.py", 'w')
+	file_.write(content)
+	file_.close()
+	if os.path.isfile('content.py'):
+		os.system('chmod +x '+file_)
+		os.system("python "+file_)
+		return True
+		
+	
+	
 
 @get('/src/ace-builds-master/:filename')
 def ace(filename):
