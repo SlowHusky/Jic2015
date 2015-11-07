@@ -10,7 +10,7 @@
     <body bgcolor=#E5E5E5>
         <div id="main">
             <div id="superior">
-                <img class="logo" src="src/img/logo.png" height="42" width="82"></div>
+                <img class="logo" src="src/img/logo.png" height="42" width="92"></div>
             <div><button heigth="42px" width="60"px>Executar</button>
                 <button heigth="42px" width="60px">Download</button>
                 <button heigth="42px" width="60px">Exemplos</button>
