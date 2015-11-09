@@ -12,12 +12,12 @@ def root():
 @route('/executar', method = "POST")
 def executeFile():
 	file = request.forms.get('content')
-	file_ = open("content.py", 'w')
-	file_.write(content)
-	file_.close()
+	arquivo = open("content.py", 'w')
+	arquivo.write(file)
+	arquivo.close()
 	if os.path.isfile('content.py'):
-		os.system('chmod +x '+file_)
-		os.system("python "+file_)
+		os.system('chmod +x content.py')
+		os.system("python content.py")
 		return True
 		
 	

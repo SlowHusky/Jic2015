@@ -11,11 +11,11 @@
         <div id="main">
             <div id="superior">
                 <img class="logo" src="src/img/logo.png" height="42" width="92"></div>
-            <div><button heigth="42px" width="60"px>Executar</button>
-                <button heigth="42px" width="60px">Download</button>
-                <button heigth="42px" width="60px">Exemplos</button>
-                <button heigth="42px" width="60px">Tutoriais</button>
-                <button heigth="42px" width="60px">PyDoc</button></div>
+            <div><button id="executar" heigth="42px" width="60"px>Executar</button>
+                <button id="download" heigth="42px" width="60px">Download</button>
+                <button id="exemplos" heigth="42px" width="60px">Exemplos</button>
+                <button id="tutoriais" heigth="42px" width="60px">Tutoriais</button>
+                <button id="pydoc" heigth="42px" width="60px">PyDoc</button></div>
                 <div id="editor">
 '''
 Bem vindo ao Avalon! O ambiente virtual de ensino a programacao
